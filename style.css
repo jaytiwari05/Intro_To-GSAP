@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.main01{
+    height: 100%;
+    width: 100%;
+    background-color: #090909;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px 30px;
+}
+
+.nav-2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav h3{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main01 h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 14vh;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+}
+
+.main01 h1:nth-child(2){
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.main01 h1:nth-child(3){
+    text-align: center;
+}
+
+.main01 h1:nth-child(4){
+    text-align: center;
+
+}
+
+img{
+    height: 30vh;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+#img1{
+    rotate: 20deg;
+}
+
+#img2{
+    rotate: 10deg;
+}
+
+@media screen and (max-width: 768px){
+
+    
+    img{
+        height: 20vh;
+    }
+    
+}
